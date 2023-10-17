@@ -4,7 +4,7 @@
 
 // Make sure you keep the logic for saving the book's ID to state in the try...catch block!
 
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useMutation } from '@apollo/client';
 import { SAVE_BOOK } from '../utils/mutations';
 

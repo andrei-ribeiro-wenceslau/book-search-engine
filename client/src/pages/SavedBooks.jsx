@@ -27,14 +27,13 @@ const SavedBooks = () => {
 
   const { loading, data } = useQuery(GET_ME)
  
-  const [ removeBook, {error }] = useMutation(REMOVE_BOOK)
+  const [ removeBook] = useMutation(REMOVE_BOOK)
 
   const userData = data?.me || {};
   console.log({data})
 
   // create function that accepts the book's mongo _id value as param and deletes the book from the database
   const handleDeleteBook = async (bookId) => {
-    debugger
     const token = Auth.loggedIn() ? Auth.getToken() : null;
 
     if (!token) {
@@ -61,7 +60,7 @@ const SavedBooks = () => {
 
   return (
     <>
-      <div fluid="true" className='text-light bg-dark p-5'>
+      <div className='text-light bg-dark p-5'>
         <Container >
           <h1>Viewing saved books!</h1>
         </Container>
