@@ -8,9 +8,6 @@ import { ADD_USER } from '../utils/mutations';
 
 import Auth from '../utils/auth';
 
-// import { createUser } from '../utils/API';
-// import { ADD_USER } from 'react-bootstrap/lib/InputGroup';
-
 const SignupForm = () => {
 
   // set initial form state
