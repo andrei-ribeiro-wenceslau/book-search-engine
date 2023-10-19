@@ -49,7 +49,7 @@ https://andrei-book-search-engine-d5dbff0e9c40.herokuapp.com/
 Contributions are welcome! If you find any issues or have enhancements in mind, feel free to submit pull requests or open issues.
 
 ## License
-This project is licensed under the Apache-2.0 license.
+This project is licensed under the GPL-3.0 license.
 
 ## Contact
 For any questions or inquiries, please feel free to contact:
